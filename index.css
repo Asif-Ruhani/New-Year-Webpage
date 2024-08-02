@@ -1,0 +1,142 @@
+
+/* Header section style */
+.sec_class1{
+    background-image: url('resources/Banner\ Image.png');
+    height: 600px;
+    background-repeat: no-repeat;
+    margin: 30px 280px;
+     /* filter: brightness(70%); */
+     /* opacity: 0.8; */
+}
+.p_class1{
+    color: white;
+    text-align: center;
+    margin-bottom: -1em;
+    padding-top: 150px;
+    font-size:x-large;
+    font-weight: 700;
+}
+.div_class1{
+    font-size: 500%; 
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    margin-top: -1em;
+}
+.p_class2{
+    margin-top: -1em;
+}
+
+/* Section 2 styles */
+
+
+.div_class2{
+    text-align: center;
+    margin-top: 50px;
+}
+#id1{
+    color: red;
+    font-size: 400%;
+    font-weight:900;
+  
+}
+#id2{
+   color: red; 
+   font-weight: 600;
+   margin-top: -2em;
+}
+#id3{
+    font-size: xx-large;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+
+/* Section 3 styles */
+
+.div_class3{
+    background-image: url('resources/Vectorrr.png'); 
+    background-repeat: no-repeat;
+    height: 600px;
+    margin: 80px 280px;
+    display: flex;
+    align-items: center;
+} 
+.div_class4{
+    color: white; 
+    padding-top: 100px;
+    padding-left: 70px;
+}
+
+#id4{
+    font-size: 4vw;
+    font-weight: 700;
+}
+#id5{
+    margin-top: -2em;
+}
+#id6{
+     color: white; 
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.img_class1{
+    margin-left: 250px;
+    height: 400px;
+    margin-top: 50px;
+    
+}
+
+/*  Section 4 styles */
+
+
+.div_class5{
+    background-color:rgba(255, 0, 0, 0.048);
+    text-align: center;
+    margin: 80px 280px;
+    height: 250px;
+    font-weight: 700;
+    font-size: larger;
+    padding: 30px;
+    /* border: 1px solid red; */
+    border-radius: 15px;  
+}
+
+.div_class5 span{
+    color: red;
+}
+.div_class5 button{
+    margin-top: 20px;
+    background-color: red;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+}
+
+
+/* Section 5 styles */
+
+.div_class6{
+    display: flex;
+    margin: 0 280px;
+    align-items: center;
+}
+.div_class7{
+    padding-right: 90px;
+    text-align: justify;
+}
+.div_class8{
+    border: 10px solid red;
+    border-radius: 220px;  
+   
+}
+.div_class8 img{
+ margin: 25px;
+}
+.div_class9{
+    padding-left: 90px;
+    text-align: justify;
+}
+
