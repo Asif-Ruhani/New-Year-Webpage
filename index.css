@@ -118,13 +118,16 @@
 
 /* Section 5 styles */
 
+/* If we use "gap", then we can use it in div_class6 for making fap among div_class7, div_class8 & div_class9 */
+/* if we use "padding" then we can use it in div_class7, div_class8 & div_class9 for similar work done*/
 .div_class6{
     display: flex;
     margin: 0 280px;
     align-items: center;
+    gap: 90px;           
 }
 .div_class7{
-    padding-right: 90px;
+    /* padding-right: 90px; */
     text-align: justify;
 }
 .div_class8{
@@ -136,7 +139,58 @@
  margin: 25px;
 }
 .div_class9{
-    padding-left: 90px;
+    /* padding-left: 90px; */
     text-align: justify;
 }
+
+
+/* Section 6 styles */
+
+
+
+.div_class10{
+    text-align: center;
+    margin-top: 70px;
+}
+.div_class10 span{
+    color: red;
+}
+
+.div_class10 h1{
+    font-size: 60px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.div_class11{
+    display: flex;
+    margin: 20px 280px;
+    background-image: url('resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+     height: 400px; 
+}
+
+#id7{
+   height: 400px;
+   position: absolute;
+   top: 362%;
+   left: 20%;
+  
+}
+#id8{
+   margin-left: 690px; 
+}
+
+#id9{
+    margin: 0 280px;
+    height: 150px;
+    width: 1330px;
+    margin-top: -1.2em; 
+}
+
+.div_class12{
+    margin: 0 280px;
+}
+
 
