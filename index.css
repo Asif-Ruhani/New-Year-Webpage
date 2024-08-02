@@ -171,10 +171,11 @@
      height: 400px; 
 }
 
+/* top: 362% means that picture will be placed 362% bottom from the top  & position: absolute is important for this % type measurement*/
 #id7{
    height: 400px;
    position: absolute;
-   top: 362%;
+   top: 362%;    
    left: 20%;
   
 }
@@ -189,8 +190,44 @@
     margin-top: -1.2em; 
 }
 
+
+
+/* Section 7 styles */
+
+
 .div_class12{
-    margin: 0 280px;
+    margin: 70px 280px 30px;
+}
+.div_class12 h3{
+    color: red;
+}
+.div_class12 h1{
+    font-size: 50px;
+    margin-top: 0px;
+}
+.div_class12 p{
+    color: rgba(0, 0, 0, 0.473);
+    font-size: larger;
+    margin-top: -1.5em;
+}
+.div_class13{
+   margin: 0 280px;
+}
+.div_class13 img{
+    margin-right: 15px;
+}
+.div_class14{
+    margin: 15px 280px;
+}
+.div_class14 img{
+    margin-right: 15px;
+}
+
+.div_class13 img:hover{
+    opacity: 50%;
+}
+.div_class14 img:hover{
+    opacity: 50%;
 }
 
 
